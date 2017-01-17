@@ -1,0 +1,31 @@
+{
+  "name": "slight/slight",
+  "version": "1.0",
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/aliasc/slight"
+        }
+    ],
+
+	"license": [
+       "LGPL-2.1",
+       "GPL-3.0+"
+    ],
+
+	"authors": [
+        {
+            "name": "Yusuf Alija",
+            "email": "yaliyyaa@gmail.com",
+            "role": "Developer"
+        }
+    ],
+
+	"autoload": {
+        "classmap": ["src/"]
+    },
+
+    "require": {
+        "twig/twig": "^1.23"
+    }
+}
